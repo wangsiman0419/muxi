@@ -1,0 +1,154 @@
+*{margin: 0;padding: 0}
+.container .navbar{
+    background:#ffffff;
+    border: none;
+    margin-bottom: 0;
+}
+.container .navbar-brand{
+    height: 70px;
+    width: 285px;
+    line-height: 250px;
+    background: url("../images/logo0.png") no-repeat center;
+    margin-top: 8px;
+}
+@media (max-width: 768px){
+    .container .navbar-brand {
+        width: 80px;
+        height: 80px;
+        background: url("../images/logo1.png") no-repeat center ;
+        background-size: contain; 
+        padding: 15px;
+    }
+}
+ .container .navbar-nav>li>a{
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 8px;
+}
+ .container .navbar .nav>li:hover>a{
+    cursor: pointer;
+    color: #2dae36;
+    border-bottom: 2px solid #2dae36;
+}
+.container .navbar .nav .select>a{
+    cursor: pointer;
+    color: #2dae36;
+    border-bottom: 2px solid #2dae36;
+} 
+.container .navbar-default .navbar-header .navbar-toggle .icon-bar{
+     background: #2dae36;
+}
+.container .navbar-default .navbar-header .navbar-toggle{
+    border-color: #2DAE36;
+    margin-top: 30px;
+}
+.container .navbar-default .navbar-header .navbar-toggle:hover .icon-bar{
+    background: #ffffff;
+}
+.container .navbar-default .navbar-header .navbar-toggle:hover{
+    background: #2dae36;
+}
+.carousel-indicators .active{
+    background-color:#2dae36;
+} 
+/* 中间部分 企业精神 */
+.center{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.font{
+    font-size: 23px;
+    margin-bottom: 50px;
+}
+.wrap{
+    padding-top: 50px;
+    text-align: center;
+}
+.wrap li{
+    list-style: none;
+}
+.spirit div img{
+    width: 75px;
+    height: 75px;
+}
+.spirit div ul li:nth-child(1){
+    font-size:23px;
+    color: #2dae36; 
+}
+.spirit div ul{
+    padding-top: 20px;
+    color: #666;
+    font-size: 13px;
+}
+.spirit div ul li{
+    margin-bottom: 10px;
+}
+.line{
+    height: 43px;
+    border-bottom: 1px solid #2dae36;
+    margin-top: 60px;
+}
+.line p{
+    font-size: 22px;
+    width: 120px;
+    height: 43px;
+    line-height: 43px;
+    color: white;
+    background: #2dae36;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.info img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+
+/* 底部 */
+.mx-center{
+	margin-left: auto;
+	margin-right: auto;
+}
+.mx-width{
+	padding-left: 10%;
+	padding-right: 10%;
+	box-sizing: border-box;
+}
+.foot{
+	padding-top:24px;
+	padding-bottom:16px;
+	box-sizing: border-box;
+	background-color:#ddd;
+	text-align: center;
+    color:#666;
+    margin-top: 65px;
+}
+.foot .foot-logo{
+    margin-bottom: 16px;
+}
+.foot .foot-logo img{
+    width: 100px;
+  
+}
+.foot a{
+	color:#777;
+	text-align: center;
+	text-decoration: none;
+}
+.foot .about{
+	padding-top: 20px;
+}
+.foot a:hover{
+	color:#2dae36;
+}
+.foot .copyright{
+	font-size: 12px;
+	text-align: center;
+	line-height: 2.4em;
+}
+.foot .contact{
+	font-size: 10px;
+	line-height: 1.6em;
+    text-align: left;  
+}

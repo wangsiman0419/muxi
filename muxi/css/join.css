@@ -1,0 +1,200 @@
+*{margin: 0;padding: 0}
+.container .navbar{
+    background: white;
+    border: none;
+}
+.container .navbar-brand{
+    height: 70px;
+    width: 285px;
+    line-height: 250px;
+    background: url("../images/logo0.png") no-repeat center;
+    margin-top: 8px;
+}
+@media (max-width: 768px){
+    .container .navbar-brand {
+        width: 80px;
+        height: 80px;
+        background: url("../images/logo1.png") no-repeat center ;
+        background-size: contain; 
+        padding: 15px;
+    }
+}
+.container .navbar .nav li>a{
+    line-height: 50px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.container .navbar .nav>li:hover>a{
+    color: #49B951;
+    border-bottom: 2px solid #49B951;
+} 
+.container .navbar .nav .select>a{
+    color: #49B951;
+    border-bottom: 2px solid #49B951;
+    cursor: pointer;
+} 
+.container .navbar-default .navbar-header .navbar-toggle .icon-bar{
+    background: #2dae36;
+}
+.container .navbar-default .navbar-header .navbar-toggle{
+   border-color: #2DAE36;
+   margin-top: 30px;
+}
+.container .navbar-default .navbar-header .navbar-toggle:hover .icon-bar{
+   background: #ffffff;
+}
+.container .navbar-default .navbar-header .navbar-toggle:hover{
+   background: #2dae36;
+}
+/* 图片 */
+.imgages{
+    height: 351.3px;
+    width: 100%;
+}
+.images img{
+    height: 351.3px;
+    width: 100%;
+}
+.joinpart{
+    width: 100%;
+    margin-top: 25px;
+}
+.join-top {
+    width: 100%;
+    height: 42px;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+.join-top .joinus-title{
+    height: 42px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #2dae36;
+}
+.join-top .joinus-title p{
+    height: 42px;
+    width: 120px;
+    line-height: 42px;
+    text-align: center;
+    background: #2DAE36;
+    color: white;
+    font-size: 20px;
+    border-radius: 16px 0 16px 0;
+}
+.joinus-list{
+    width: 100%;
+    margin-top: 10px;
+}
+.joinus-condition{
+   box-sizing: border-box;
+    background: #F9F9F9;
+    padding: 30px 0;
+}
+
+.row-left{
+    height: 170px;
+    width: 510px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.joinus-logo{
+    float: left;
+    text-align: right;
+}
+ .word{
+    font-size: 30px;
+    color: #333333;
+}
+.font{
+    font-size: 18px;
+    color: #2DAE36;
+}
+.left-condition{
+    height: 105px;
+    width: 154px;
+    float: left;
+    margin-top: 16px;
+}
+.joinpart .joinus_condition .condition_mes {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6em;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.row-right{
+    width: 540px;
+    height: 190px;
+}
+.joinpart  .joinus-process {
+    box-sizing: border-box;
+    padding: 30px 0px;
+    border-top: 1px dotted rgb(45, 174, 54);
+    border-bottom: 1px dotted rgb(45, 174, 54);
+}
+.joinpart  .joinus-policy {
+    box-sizing: border-box;
+    padding: 30px 0px;
+    background: #F9F9F9;
+    border-top: 1px dotted rgb(45, 174, 54);
+}
+.joinus-policy .policy-title{
+    color: #2DAE36;
+    font-size: 16px;
+    font-weight: bold;
+}
+.joinus-policy .policy-text{
+    text-indent: 2em;
+    color: #666666;
+}
+.joinus-policy .policy-list{
+    color: #666666;
+    text-indent: 2em;
+}
+
+.mx-center{
+	margin-left: auto;
+	margin-right: auto;
+}
+.mx-width{
+	padding-left: 10%;
+	padding-right: 10%;
+	box-sizing: border-box;
+}
+.foot{
+	padding-top:24px;
+	padding-bottom:16px;
+	box-sizing: border-box;
+	background-color:#ddd;
+	text-align: center;
+    color:#666;
+}
+.foot .foot-logo{
+    margin-bottom: 16px;
+}
+.foot .foot-logo img{
+    width: 100px;
+  
+}
+.foot a{
+	color:#777;
+	text-align: center;
+	text-decoration: none;
+}
+.foot .about{
+	padding-top: 20px;
+}
+.foot a:hover{
+	color:#2dae36;
+}
+.foot .copyright{
+	font-size: 12px;
+	text-align: center;
+	line-height: 2.4em;
+}
+.foot .contact{
+	font-size: 10px;
+	line-height: 1.6em;
+    text-align: left;  
+}
